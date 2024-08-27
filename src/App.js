@@ -149,7 +149,13 @@ class App extends Component {
               </button>
             </div>
           </form>
+          <img
+            src="https://assets.ccbp.in/frontend/react-js/password-manager-lg-img.png"
+            alt="password manager"
+            className="pwd-manager-img1"
+          />
         </div>
+
         <div className="second-container">
           <div className="password-container">
             <div className="counter">

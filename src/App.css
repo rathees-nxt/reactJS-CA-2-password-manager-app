@@ -94,6 +94,12 @@ body {
   border: none;
   background-color: #0b69ff;
 }
+.pwd-manager-img1 {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+  display: none;
+}
 @media screen and (min-width: 768px) {
   .main-container {
     padding: 20px 100px;
@@ -108,10 +114,9 @@ body {
     padding: 20px 30px;
   }
   .pwd-manager-img {
-    order: 1;
+    display: none;
   }
   .newpassword-container {
-    order: 0;
     width: 450px;
     padding: 20px 30px;
   }
@@ -124,6 +129,17 @@ body {
   }
   .input {
     width: 100%;
+  }
+  .pwd-manager-img1 {
+    width: 300px;
+    height: 200px;
+    display: flex;
+  }
+}
+@media screen and (min-width:992px){
+  .pwd-manager-img1{
+    height: 300px;
+    width: 450px;
   }
 }
 .second-container {
@@ -243,7 +259,7 @@ body {
   text-align: center;
   border-radius: 50px;
   margin-right: 10px;
-  padding:0px;
+  padding: 0px;
 }
 .letter {
   text-align: center;
